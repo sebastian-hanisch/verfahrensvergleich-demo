@@ -1,5 +1,7 @@
 # Verfahrensvergleich: welches Verfahren, gemessen woran? – Streamlit-Demo
 
+**[→ Demo live ausprobieren](https://sebastianhanisch-verfahrensvergleich-demo.streamlit.app/)**
+
 Sechzehntes und letztes Stück der Linie **Inverse Probleme und Regularisierung** in der „Konzepte“-Reihe im Portfolio von [Sebastian Hanisch](https://sebastianhanisch.net) (Operations Research und Machine Learning). Es vergleicht die Verfahren der Stücke davor auf derselben Welt: eine lineare Entfaltung (n = 48) mit Gauß-Unschärfe (w = 0,03) und weißem Rauschen, gebaut auf [tikhonov-demo](https://github.com/sebastian-hanisch/tikhonov-demo), [tsvd-demo](https://github.com/sebastian-hanisch/tsvd-demo), [iterativ-demo](https://github.com/sebastian-hanisch/iterativ-demo), [sparsity-tv-demo](https://github.com/sebastian-hanisch/sparsity-tv-demo), [bayes-map-demo](https://github.com/sebastian-hanisch/bayes-map-demo), [plug-and-play-demo](https://github.com/sebastian-hanisch/plug-and-play-demo) und [diffusions-prior-demo](https://github.com/sebastian-hanisch/diffusions-prior-demo). Die Wahrheit ist bekannt, weil die Signale selbst die Wahrheit sind; sie dient hier nur als Maßstab.
 
 ## Kernfrage
