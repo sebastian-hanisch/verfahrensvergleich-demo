@@ -14,7 +14,7 @@ HOVER = "s %{x:.3f}<br>x %{y:.3f}<extra></extra>"
 
 
 def _fixed(fig: go.Figure, height: int = 360, **layout) -> go.Figure:
-    fig.update_layout(height=height, margin=dict(l=10, r=10, t=30, b=10), legend=dict(orientation="h", y=-0.25), **layout)
+    fig.update_layout(height=height, margin=dict(l=10, r=10, t=30, b=10), legend=dict(orientation="h", y=-0.25), separators=",.", **layout)
     fig.update_xaxes(fixedrange=True)
     fig.update_yaxes(fixedrange=True)
     return fig
